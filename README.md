@@ -3,6 +3,7 @@
 A collection of Salesforce DX templates for development purposes, including Apex classes, Apex triggers, Aura & LWC components, and Visualforce pages.
 
 ## Table of Contents
+
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,16 +20,19 @@ This repository is intended for development purposes where metadata files have a
 The files are updated to the latest version with each new Salesforce release in the "fr" instances.
 
 To set these templates for your Salesforce project, run the following command:
+
 ```sh
 sf config set org-custom-metadata-templates=https://github.com/BoboJD/SalesforceDX-Templates
 ```
 
 To confirm that the configuration setting is updated, run:
+
 ```sh
 sf config list
 ```
 
 ## Usage
+
 After setting up the templates, you can start using them in your Salesforce project. Here are some examples:
 
 - Apex Classes: Add new Apex classes based on the templates.
@@ -37,4 +41,5 @@ After setting up the templates, you can start using them in your Salesforce proj
 - Visualforce Pages: Design new Visualforce pages using the templates.
 
 ## Contributing
+
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
